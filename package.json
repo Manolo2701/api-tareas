@@ -1,14 +1,14 @@
 {
   "name": "api-tareas",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "API REST de práctica para gestionar tareas con Node.js y Express",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nodejs", "express", "api-rest", "tareas"],
+  "author": "Manuel Barbado",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
